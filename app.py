@@ -94,5 +94,5 @@ def transcribe():
         return jsonify({"error": "Formato de áudio não suportado. Use ogg, oga, opus, m4a, wav ou mp3"}), 400
 
 if __name__ == '__main__':
-    # Rodar a aplicação Flask na porta 5000
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # Rodar a aplicação Flask na porta 8002
+    app.run(host='0.0.0.0', port=8002, debug=True)
